@@ -3,12 +3,13 @@
 <p> Copy & paste above code snippet into the &lthead&gt tag of all your html pages. </p>
 <p> Please make sure that you add it before all other script tags as well. </p>
 
-<code>
-<script src="https://raw.githubusercontent.com/sasidhar678/BugTrackerLibrary/master/bug_tracker.js"> </script> 
+<pre>
 
-<script src="text/javascript"&gt bugTracker.start("{{project._id}}") </script> 
-</code>
+&ltsrc="https://raw.githubusercontent.com/sasidhar678/BugTrackerLibrary/master/bug_tracker.js"&gt &lt/script&gt
 
+&ltscript src="text/javascript"&gt bugTracker.start("{{project._id}}")&gt &lt/script&gt
+
+</pre>
 
 Implement your own Cloud Server to handle your bug reports with the help of <a href="https://github.com/sasidhar678/BugTracker"> Bug Tracker </a>
 
