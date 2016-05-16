@@ -1,11 +1,13 @@
 # BugTrackerLibrary
 
+<p> Download <i> bug_tracker.js </i> from master branch</p> 
+<p> Open <i> bug_tracker.js <i> and replace url with your project url<p>
 <p> Copy & paste below code snippet into the &lthead&gt tag of all your html pages. </p>
 <p> Please make sure that you add it before all other script tags as well. </p>
 
 <pre>
 
-&ltsrc="https://raw.githubusercontent.com/sasidhar678/BugTrackerLibrary/master/bug_tracker.js"&gt &lt/script&gt
+&ltsrc="bug_tracker.js"&gt &lt/script&gt
 
 &ltscript src="text/javascript"&gt bugTracker.start("API_KEY")&gt &lt/script&gt
 
