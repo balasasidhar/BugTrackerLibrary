@@ -1,13 +1,11 @@
 /**
  * Created by SASi on 10-May-16.
  */
-
-
-
 var bugTracker = {
     start: function (apiKey) {
         var self = this;
         self.apiKey = apiKey;
+        if (!self.apiKey) return;
         self.getBrowser = function (regex) {
             var ua = navigator.userAgent, tem, M = ua.match(regex) || [];
             if (/trident/i.test(M[1])) {
@@ -33,7 +31,6 @@ var bugTracker = {
                 version: M[1]
             };
         };
-
         self.sendReport = function (report) {
             report.key = self.apiKey;
             var url = "http://localhost:3000/api/report"; // replace with url where you want to submit your error reports
@@ -42,7 +39,6 @@ var bugTracker = {
             client.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             client.send('report=' + JSON.stringify(report));
         };
-
         window.onerror = function (message, source, lineno, colno, errorobj) {
             var regex = /(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i;
             var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;

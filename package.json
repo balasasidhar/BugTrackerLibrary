@@ -1,0 +1,30 @@
+{
+  "name": "bug_tracker",
+  "version": "1.0.0",
+  "description": "A simple JS library to track front-end JS bugs/errors",
+  "main": "bug_tracker.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasidhar678/BugTrackerLibrary.git"
+  },
+  "keywords": [
+    "Bug",
+    "Tracker",
+    "Library",
+    "JS"
+  ],
+  "author": "Bala Sasidhar Kola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sasidhar678/BugTrackerLibrary/issues"
+  },
+  "homepage": "https://github.com/sasidhar678/BugTrackerLibrary#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
