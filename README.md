@@ -9,7 +9,7 @@
 
 &ltscript src="text/javascript"&gt bugTracker.start("API_KEY")&gt &lt/script&gt
 
-/** Replace " API_KEY " key with related your project API KEY ** /
+/** Replace " API_KEY " key with your project API KEY ** /
 </pre>
 
 
