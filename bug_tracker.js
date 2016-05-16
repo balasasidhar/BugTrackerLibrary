@@ -36,14 +36,11 @@ var bugTracker = {
 
         self.sendReport = function (report) {
             report.key = self.apiKey;
-            
-            var url = "<your-host>"; // replace with url where you want to submit your error reports
-            
-            var xhReq = new XMLHttpRequest();
-            xhReq.open("POST", url, false);
-            xhReq.send(report);
-            var serverResponse = xhReq.responseText;
-            console.log(serverResponse); 
+            var url = "http://localhost:3000/api/report"; // replace with url where you want to submit your error reports
+            var client = new XMLHttpRequest();
+            client.open("POST", url);
+            client.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            client.send('report=' + JSON.stringify(report));
         };
 
         window.onerror = function (message, source, lineno, colno, errorobj) {
