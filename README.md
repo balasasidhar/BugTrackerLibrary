@@ -3,7 +3,7 @@
 <p> Copy & paste above code snippet into the &lthead&gt tag of all your html pages. </p>
 <p> Please make sure that you add it before all other script tags as well. </p>
 
-<code> 
+<code>
 &ltscript src="https://raw.githubusercontent.com/sasidhar678/BugTrackerLibrary/master/bug_tracker.js"&gt &lt/script&gt 
 &ltscript src="text/javascript"&gt bugTracker.start("{{project._id}}") &lt/script&gt 
 </code>
