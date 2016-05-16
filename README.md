@@ -1,6 +1,6 @@
 # BugTrackerLibrary
 
-<p> Copy & paste above code snippet into the &lthead&gt tag of all your html pages. </p>
+<p> Copy & paste below code snippet into the &lthead&gt tag of all your html pages. </p>
 <p> Please make sure that you add it before all other script tags as well. </p>
 
 <pre>
