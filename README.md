@@ -1,4 +1,5 @@
 # BugTrackerLibrary
+<h5> A simple JS Library to track Front-End JS Errors </h5>
 
 <p> Download <i> bug_tracker.js </i> from master branch</p> 
 <p> Open <i> bug_tracker.js </i> and replace url with your project url<p>
