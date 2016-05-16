@@ -7,9 +7,11 @@
 
 &ltsrc="https://raw.githubusercontent.com/sasidhar678/BugTrackerLibrary/master/bug_tracker.js"&gt &lt/script&gt
 
-&ltscript src="text/javascript"&gt bugTracker.start("{{project._id}}")&gt &lt/script&gt
+&ltscript src="text/javascript"&gt bugTracker.start("API_KEY")&gt &lt/script&gt
 
+/** Replace " API_KEY " key with related your project API KEY ** /
 </pre>
+
 
 Implement your own Cloud Server to handle your bug reports with the help of <a href="https://github.com/sasidhar678/BugTracker"> Bug Tracker </a>
 
