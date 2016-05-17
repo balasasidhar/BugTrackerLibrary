@@ -33,7 +33,7 @@ var bugTracker = {
         };
         self.sendReport = function (report) {
             report.key = self.apiKey;
-            var url = "http://localhost:3000/api/report"; // replace with url where you want to submit your error reports
+            var url = "http://bug-tracker.in/api/report"; // replace with url where you want to submit your error reports
             var client = new XMLHttpRequest();
             client.open("POST", url);
             client.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
